@@ -22,14 +22,15 @@ The environment variable in question is named `RobinLeApps`.
 See this illustration for the directory structure required by my repositories:
 ```
 %RobinLeApps%
- ├─ dll
- │   └─ <release versions of DLLs (.dll, .pdb)>
- ├─ include
- │   └─<include subdirectories, like "rlText">
- └─ lib
-     ├─ Debug
-     │   └─<debug versions of static libraries (.lib, .idb, .pdb)>
-     ├─ Release
-     │   └─<release versions of static libraries (.lib, .pdb)>
-     └ <import libraries (.lib, .exp)>
+ ├───dll
+ │   └─── <release versions of DLLs (.dll, .pdb)>
+ ├───include
+ │   └─── <include subdirectories, like "rlText">
+ ├───lib
+ │   ├───Debug
+ │   │   └─── <debug versions of static libraries (.lib, .idb, .pdb)>
+ │   ├───Release
+ │   │   └─── <release versions of static libraries (.lib, .pdb)>
+ │   └ <import libraries (.lib, .exp)>
+ └ <release versions of executables (.exe, .pdb)>
 ```
