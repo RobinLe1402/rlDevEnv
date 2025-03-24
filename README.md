@@ -1,9 +1,22 @@
 # The RobinLe C/C++ Development Environment
 This repository contains some global code for all my C/C++ repositories.
 
+> [!NOTE]
+> At the moment, the configuration is 90% made for Microsoft Visual C++
+> project files (`.sln`, `.vcxproj`) of a UNIX-style directory
+> structure, see below.
+>
+> However, I recently started using CMake for new projects. This repo
+> will most likely change a lot in the near future.
+
 
 ## Visual Studio Editor Configuration (`.editorconfig` file)
-Put this file in a parent directory of the my C++ repositories, it's for automatic code formatting.
+
+There is `spaces.editorconfig` that uses four spaces as indentation and
+`tabs.editordconfig` that uses tabs (`\t`) as indentation.
+
+Copy one of those files as `.editorconfig` in a parent directory of C++
+projects to automatically apply the included code formatting settings.
 
 
 ## Git Files (`.gitattributes`,  `.gitignore`)
